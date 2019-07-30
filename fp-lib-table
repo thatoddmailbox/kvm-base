@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name kvm-base)(type KiCad)(uri ${KIPRJMOD}/kvm-base.pretty)(options "")(descr ""))
+)

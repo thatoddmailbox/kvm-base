@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FSUSB74
+D High-Speed USB Multiplexer / Switch
+K usb, multiplexer, switch, high-speed
+F https://www.onsemi.com/pub/Collateral/FSUSB74-D.pdf
+$ENDCMP
+#
+$CMP TMDS361B
+F https://www.ti.com/lit/ds/symlink/tmds361b.pdf
+$ENDCMP
+#
+$CMP USB_Dual_A
+D 2x stacked USB Type A connectors
+K connector USB
+F  ~
+$ENDCMP
+#
+#End Doc Library

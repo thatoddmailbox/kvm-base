@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name kvm-base)(type Legacy)(uri ${KIPRJMOD}/kvm-base.lib)(options "")(descr ""))
+)
