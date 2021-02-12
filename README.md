@@ -1,7 +1,7 @@
 # kvm-base
 The main board for the KVM switch I built. Contains HDMI and USB switch ICs, allowing you to share two monitors and four USB devices between three different computers.
 
-This is a four layer PCB, designed for JLCPCB's JLC7628 impedance-controlled stackup. It most likely will not work (or will be limited in terms of HDMI performance) on another stackup.
+This is a 1.6mm four layer PCB, designed for JLCPCB's [JLC7628](https://jlcpcb.com/quote/pcbOrderFaq/PCB%20Stackup) impedance-controlled stackup. It most likely will not work (or will be limited in terms of HDMI performance) on another stackup.
 
 It connects via a PS/2 cable to [kvm-keypad](https://github.com/thatoddmailbox/kvm-keypad)&mdash;however, it does _not_ use the actual PS/2 protocol.
 
