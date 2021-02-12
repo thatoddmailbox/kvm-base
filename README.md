@@ -7,7 +7,7 @@ Two [TMDS361B](https://www.ti.com/lit/ds/symlink/tmds361b.pdf) chips are used as
 
 The consequences of this seem to be that there's little/no ESD protection on the sink side (the monitor output ports), and that the chip has a fairly weak sink-side output stage. That means you probably can't use the output with super long or super cheap cables. The inputs, however, should be fine, since TI claims that the TMDS361B has a "robust TMDS receive stage" that even works with out-of-spec HDMI signals.
 
-Theoretically, you might be able to work around this by running the output signals to another board with a retimer or redriver, but that's probably somewhat excessive. A future revision should use a different chip and/or integrate a retimer/redriver to the output stage.
+Theoretically, you might be able to work around this by running the output signals to another board with a retimer or redriver, but that's probably somewhat excessive. A future revision should use a different chip and/or integrate a retimer/redriver to the output stage. Unfortunately, it might be somewhat tricky to find an easily accessible HDMI switch chip&mdash;most seem to want you to sign an NDA before getting any documentation.
 
 ## Useful links
 * [Rev A schematic](./mfg/revA/kvm-base.pdf)
