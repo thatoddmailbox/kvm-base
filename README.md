@@ -8,6 +8,8 @@ It connects via a PS/2 cable to [kvm-keypad](https://github.com/thatoddmailbox/k
 Two [TMDS361B](https://www.ti.com/lit/ds/symlink/tmds361b.pdf) chips are used as HDMI switches, and an [FSUSB74](https://www.onsemi.com/pub/Collateral/FSUSB74-D.pdf) is used as the USB switch.
 
 ## Assembly
+The full Bill of Materials is linked at the end of the README, and you should get the PCB fabricated at JLCPCB with their impedance-controlled JLC7628 process.
+
 A stencil is probably the easiest way to assemble the board, but it's definitely possible to do so without one, as long as you have a hot air rework station. The trickiest parts to solder are probably the FSUSB74 (QFN with 0.4 mm pitch but no thermal pad) and the TMDS361B (TQFP with 0.5 mm pitch).
 
 The HDMI connectors are also somewhat tricky, given that they are on both sides of the board and also have a relatively fine pitch. However, it's doable with a soldering iron, flux, solder wick, and ideally some form of magnification&mdash;you just have to be careful to ensure the pins are aligned with the footprint on the board before soldering.
