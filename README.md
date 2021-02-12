@@ -10,6 +10,8 @@ Two [TMDS361B](https://www.ti.com/lit/ds/symlink/tmds361b.pdf) chips are used as
 ## Assembly
 A stencil is probably the easiest way to assemble the board, but it's definitely possible to do so without one, as long as you have a hot air rework station. The trickiest parts to solder are probably the FSUSB74 (QFN with 0.4 mm pitch but no thermal pad) and the TMDS361B (TQFP with 0.5 mm pitch).
 
+The HDMI connectors are also somewhat tricky, given that they are on both sides of the board and also have a relatively fine pitch. However, it's doable with a soldering iron, flux, and solder wick&mdash;you just have to be careful to ensure the pins are aligned with the footprint on the board before soldering.
+
 ## Note on sink-side output stages
 Interestingly, the TMDS361B's datasheet pretty clearly states that it's "not intended for source side applications such as external switch boxes", which I probably missed when designing this board.
 
