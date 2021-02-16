@@ -24,3 +24,6 @@ Theoretically, you might be able to work around this by running the output signa
 ## Useful links
 * [Rev A schematic](./mfg/revA/kvm-base.pdf)
 * [Rev A BOM](./mfg/revA/kvm-base.csv)
+
+## Known issues
+* HDMI ports are too close together -- some cables might be too big to fit
