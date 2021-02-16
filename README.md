@@ -31,3 +31,4 @@ Theoretically, you might be able to work around this by running the output signa
 * Some FSUSB74 ports seem to not be working -- this could be a soldering issue
 	* Port 2 works perfectly
 	* With ports 0 and 1, the computer detects a device but then complains the device is not responding
+	* Suspect that probably one of the D+/D- lines is not well connected
