@@ -29,3 +29,5 @@ Theoretically, you might be able to work around this by running the output signa
 * TMDS361B's sink-side output stages, as mentioned above
 * HDMI ports are too close together -- some cables might be too big to fit
 * Some FSUSB74 ports seem to not be working -- this could be a soldering issue
+	* Port 2 works perfectly
+	* With ports 0 and 1, the computer detects a device but then complains the device is not responding
