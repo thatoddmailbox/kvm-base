@@ -32,3 +32,5 @@ Theoretically, you might be able to work around this by running the output signa
 	* Port 2 works perfectly
 	* With ports 0 and 1, the computer detects a device but then complains the device is not responding
 	* Suspect that probably one of the D+/D- lines is not well connected
+* The HPD and I2C lines are switched along with the ports. This means that switching ports will cause the connected source to think the monitor went away, which might not be what you want
+	* A future version will probably need to have some sort of EDID cloning/emulation, or have some way to keep the HPD line high after the monitor is connected?
