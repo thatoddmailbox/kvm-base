@@ -39,3 +39,4 @@ Theoretically, you might be able to work around this by running the output signa
 	* There is a workaround: cover the HPD pin (pin 19) of your HDMI cable with tape to block the HPD signal.
 		* This workaround means that some sources, like a laptop, might not autodetect your HDMI cable. You'll need to have some way to rescan. On Linux, you can try the command `xrandr --listmonitors`.
 		* This might be solvable by cutting the cable open and soldering a 10k resistor between HPD and +5V? That's somewhat extra though
+* The device can kinda sorta be powered by a sink&mdash;most likely the ESD diodes in the TMDS361B are backfeeding power on the +5V line.
