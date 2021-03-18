@@ -19,7 +19,7 @@ Interestingly, the TMDS361B's datasheet pretty clearly states that it's "not int
 
 The consequences of this seem to be that there's little/no ESD protection on the sink side (the monitor output ports), and that the chip has a fairly weak sink-side output stage. That means you probably can't use the output with super long or super cheap cables. The inputs, however, should be fine, since TI claims that the TMDS361B has a "robust TMDS receive stage" that even works with out-of-spec HDMI signals.
 
-Anecdotally, the output does seem to work, but I haven't tested it in that many conditions.This has been tested with a 3 foot HDMI cable going to an Acer EB243YU monitor, using a resolution of 2560 x 1440 at 75 Hz, which is outside of the TMDS361B's spec!
+Anecdotally, the output does seem to work, but I haven't tested it in that many conditions. This has been tested with a 3 foot HDMI cable going to an Acer EB243YU monitor, using a resolution of 2560 x 1440 at 75 Hz, which is outside of the TMDS361B's spec!
 
 Theoretically, you might be able to work around this by running the output signals to another board with a retimer or redriver, but that's probably somewhat excessive. A future revision should use a different chip and/or integrate a retimer/redriver to the output stage. Unfortunately, it might be somewhat tricky to find an easily accessible HDMI switch chip&mdash;most seem to want you to sign an NDA before getting any documentation.
 
