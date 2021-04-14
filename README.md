@@ -40,4 +40,4 @@ Theoretically, you might be able to work around this by running the output signa
 		* This workaround means that some sources, like a laptop, might not autodetect your HDMI cable. You'll need to have some way to rescan. On Linux, you can try the command `xrandr --listmonitors`.
 		* This might be solvable by cutting the cable open and soldering a 10k resistor between HPD and +5V? That's somewhat extra though
 * The device can kinda sorta be powered by a sink&mdash;most likely the ESD diodes in the TMDS361B are backfeeding power on the +5V line.
-* The keypad might have some trouble with noise when a PS/2 cable is connected, although it has been worked around in the firmware. A future revision might need a buffer or redriver or something similar?
+* The keypad might have some trouble with noise when a PS/2 cable is connected, although it has been worked around in the firmware. A future revision might need a buffer or redriver or something similar? Plain I2C is probably not the best choice for communication between the base and keypad.
